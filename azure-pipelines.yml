@@ -13,9 +13,9 @@ steps:
 - script: echo Hello, world from azure pipeline!
   displayName: 'Run a one-line script'
 
-- script: sh 'mvn clean package'
+- script: mvn clean package
   displayName: 'Run a multi-line script'
 
 
-- script: sh 'java -jar target/1-1.0-SNAPSHOT.jar'
+- script: java -jar target/1-1.0-SNAPSHOT.jar
   displayName: 'Running jar file'
