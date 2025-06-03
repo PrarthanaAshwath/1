@@ -13,7 +13,7 @@ steps:
 - script: echo Hello, world from azure pipeline!
   displayName: 'Run a one-line script'
 
-- script: mvn clean package
+- script: mvn clean install
   displayName: 'Run a multi-line script'
 
 
